@@ -1,0 +1,12 @@
+.header {background: seashell; color:black; border:5px solid saddlebrown; font-size: larger; margin: auto;}
+#footer {clear:left;color:black; text-align: center; font-size: small;}
+
+#centernav {margin-left: 20%;margin-right: 20%;text-align: center;margin: 10%;padding: 1% ;margin-top: 1%; border: 5px solid saddlebrown; width:60%;font-size: large ;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+#content {text-align:center; width:70%;height:180px;}
+.mainword {text-align: center; color:saddlebrown; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;}
+.body {color: saddlebrown; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+#bodyfloat {float: right;text-align:center; width:70%;height:30%;margin-left: 2px;}
+#image {  padding-left: 3px; padding-top: 5px; padding-bottom: 8px;}
+main {display: flex; padding-top: 5px;}
+#tablemain {border: 5px solid saddlebrown; text-align: center;background-color: seashell;}
+.tableinside { border: 1px solid saddlebrown; text-align: center;background-color: seashell;}
