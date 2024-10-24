@@ -10,3 +10,4 @@
 main {display: flex; padding-top: 5px;}
 #tablemain {border: 5px solid saddlebrown; text-align: center;background-color: seashell;}
 .tableinside { border: 1px solid saddlebrown; text-align: center;background-color: seashell;}
+p {color:saddlebrown}
