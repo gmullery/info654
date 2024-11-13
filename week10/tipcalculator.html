@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<head>
+<meta charset="UTF-8">
+<title>My Tip Calculator</title>
+</head>
+<body>
+    <h2>My Tip Calculator</h2>
+    <label for="costofmeal">Cost of Meal</label>
+    <input id="costofmeal" type="number"> <br><br>
+    <label for="tippercentage">Tip Percentage</label>
+    <input id="tippercentage" type="number"> <br><br>
+    <button type="button" onclick="myFunction()">Calculate Tip Amount</button>
+    <h2 id="demo"></h2>
+<script>
+    function myFunction() {
+        let x = document.getElementById("costofmeal").value;
+        let y = document.getElementById("tippercentage").value;
+        document.getElementById("demo").innerHTML = "tip amount: $" + x * y/100
+    }
+</script>
+</body>
+</html>
