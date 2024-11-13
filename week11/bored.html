@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bored!</title>
+    </head>
+<script>
+    async function fetchDogImage() {
+        var response = await fetch('https://random.dog/woof.json');
+        var data = await response.json();
+        var imageUrl = data.url;
+        document.getElementById('dogImage').innerHTML = `<img src="${imageUrl}" alt="Random Dog">`;
+    }
+</script>  
+<body>
+    <h2>I'm bored! Let's look at random dog pictures!</h2>
+    <button type="button" id="fetchDog" onclick="fetchDogImage()">Fetch Dog!</button>
+   <div id="dogImage"></div>
+</body>
+</html>
